@@ -1,0 +1,14 @@
+frmQuanLyLuat = 66, 66, 382, 418, C, 22, 22, 495, 374, C
+crlRule = 44, 44, 378, 396, C
+crlRuleItem = 110, 110, 444, 462, C
+crlRuleRight = 132, 132, 466, 484, C
+crlRuleRightPage = 154, 154, 488, 506, C
+clsLocation = 0, 0, 0, 0, C
+mdlEnum = 44, 44, 510, 396, C
+mdlInfoSystem = 66, 66, 433, 418, C
+mdlMain = 44, 44, 411, 396, C
+mdlString = 88, 88, 452, 440, C
+mdlSystem = 110, 110, 474, 462, C
+mdlType = 132, 132, 496, 484, C
+mdlUnicode = 154, 154, 518, 506, C
+frmFlash = 44, 44, 440, 396, C, 132, 132, 528, 484, C

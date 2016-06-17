@@ -1,0 +1,11 @@
+clsWordClass = 44, 44, 367, 396, C
+clsWCItem = 132, 132, 567, 484, C
+mdlMain = 110, 110, 593, 462, C
+frmWCManage = 154, 154, 502, 506, Z, 132, 132, 511, 484, C
+mdlInfoSystem = 176, 176, 538, 528, C
+clsLocation = 110, 145, 552, 521, C
+mdlEnum = 110, 110, 507, 462, C
+mdlType = 0, 0, 0, 0, C
+mdlUnicode = 154, 154, 551, 506, C
+frmFlash = 88, 88, 484, 440, C, 0, 0, 358, 352, C
+clsIndex = 88, 116, 530, 492, C

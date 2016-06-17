@@ -1,0 +1,32 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="WordClassManage21.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"WordClassManage21.exe"
+"msvbvm60.dll"
+"oleaut32.dll"
+"olepro32.dll"
+"asycfilt.dll"
+"stdole2.tlb"
+"COMCAT.DLL"
+"MSDBRPTR.DLL"
+"msstdfmt.dll"
+"vspdf8.ocx"
+"vsprint8.ocx"
+"scrrun.dll"
+"msvcrt.dll"
+"FM20.DLL"
+"SETUP1.EXE"
+"Vb6stkit.dll"
+"ST6UNST.EXE"
+"TCVNVowels.txt"

@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "perspicacity.VietnameseChecking.Model", "perspicacity.VietnameseChecking.Model\perspicacity.VietnameseChecking.Model.csproj", "{AA782B79-1039-4B77-B45D-8170908A002D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AA782B79-1039-4B77-B45D-8170908A002D}.Debug.ActiveCfg = Debug|.NET
+		{AA782B79-1039-4B77-B45D-8170908A002D}.Debug.Build.0 = Debug|.NET
+		{AA782B79-1039-4B77-B45D-8170908A002D}.Release.ActiveCfg = Release|.NET
+		{AA782B79-1039-4B77-B45D-8170908A002D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		Du An - Bat Loi Chinh Ta Tieng Viet - Giai doan 2.txt = Du An - Bat Loi Chinh Ta Tieng Viet - Giai doan 2.txt
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

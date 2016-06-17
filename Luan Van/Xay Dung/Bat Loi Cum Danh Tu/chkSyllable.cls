@@ -1,0 +1,53 @@
+VERSION 1.0 CLASS
+BEGIN
+  MultiUse = -1  'True
+  Persistable = 0  'NotPersistable
+  DataBindingBehavior = 0  'vbNone
+  DataSourceBehavior  = 0  'vbNone
+  MTSTransactionMode  = 0  'NotAnMTSObject
+END
+Attribute VB_Name = "chkSyllable"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
+'Project: Vietnamese Checking
+'Description: chkSyllable Class - a class demonstrating syllables of sentence
+'--------------------------------
+'Author: Le Viet Man
+'   University of Hue
+'   College of Sciences - IT Department
+
+Option Explicit
+Private Syll() As chkWord
+Private iItem As Long
+
+Public Property Get Count() As Long
+    Count = iItem
+End Property
+
+Public Property Get Syllable(ByVal i As Long) As chkWord
+    Set Syllable = Syll(i)
+End Property
+
+Public Function AddSyll(ByVal vWord As chkWord) As Integer
+On Error GoTo Result
+    AddSyll = 0
+    iItem = iItem + 1
+    ReDim Preserve Syll(iItem)
+    Set Syll(iItem) = New chkWord
+    If Syll(iItem).Copy(vWord) <> 0 Then GoTo Result
+    Exit Function
+Result:
+    AddSyll = 1000
+End Function
+
+Public Function Clear() As Integer
+On Error GoTo Result
+    Clear = 0
+    iItem = 0
+    ReDim Syll(iItem)
+    Exit Function
+Result:
+    Clear = 1000
+End Function

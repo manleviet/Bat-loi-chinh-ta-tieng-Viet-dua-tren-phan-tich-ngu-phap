@@ -1,0 +1,32 @@
+﻿Dự án:   BẮT LỖI CHÍNH TẢ TIẾNG VIỆT
+Tác giả: Lê Viết Mẫn
+Email:   manleviet@yahoo.com.hk
+
+Giai đoạn 2: Chuyển đổi sang hệ nền .NET
+*---------------------------------------------*
+Giai đoạn này cải tiến những gì đã làm ở giai đoạn 1 nhằm các
+mục đích:
++ Nâng cao tốc độ xử lý của các chương trình tiện ích.
++ Tạo ra nhiều công cụ tiện ích hơn cho quá trình nghiên cứu.
++ Hỗ trợ tốt nhất cho Unicode.
++ Tận dụng được công nghệ XML. Đạt được mục tiêu quảng bá trên mạng.
+
+*---------------------------------------------*
+Những công việc đã làm:
++ Ngày 24/7/2004:
+	- Hoạch định ban đầu gói perspicacity.VietnameseChecking.Core. Cụ thể các gói
+	con se nói sau.
+	- Xây dựng lớp cơ sở _base, và ba lớp _node khác nhau cho ba gói: WordDictionary,
+	WordClassDictionary, RuleDictionary.
+	- Hoàn thành gói perspicacity.VietnameseChecking.Core.Node.
+	
++ Ngày 25/7/2004:
+	- Đổi tên gói perspicacity.VietnameseChecking.Core thành
+	perspicacity.VietnameseChecking.Model.
+	- Tiếp tục viết gói Model.
+	
++ Ngày 26/7/2004:
+	- Tìm hiểu về XML Parser.
+
+*---------------------------------------------*
+Dự tính giai đoạn 3: Hoàn thiện tập luật mô tả ngữ pháp tiếng Việt.

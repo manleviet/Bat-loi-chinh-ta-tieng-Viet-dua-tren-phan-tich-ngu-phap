@@ -1,0 +1,9 @@
+frmTachAmTiet = 66, 66, 453, 418, C, 22, 22, 424, 374, C
+mdlEnum = 0, 0, 0, 0, C
+mdlMain = 88, 88, 399, 440, C
+mdlSystem = 0, 0, 0, 0, C
+cpsSentence = 110, 110, 539, 462, C
+cpsSyllable = 88, 88, 366, 440, C
+cpsWord = 110, 110, 388, 462, C
+cpsChecking = 44, 44, 464, 396, C
+cpsParagraph = 110, 110, 476, 462, C

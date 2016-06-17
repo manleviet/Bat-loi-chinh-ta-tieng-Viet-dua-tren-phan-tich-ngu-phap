@@ -1,0 +1,16 @@
+clsCPage = 0, 0, 796, 264, C
+mdlType = 66, 66, 343, 418, C
+clsPage = 0, 264, 796, 528, C
+clsWordDic = 132, 132, 409, 484, Z
+mdlMain = 0, 0, 331, 352, C
+mdlInfoSystem = 22, 22, 353, 374, C
+mdlEnum = 88, 88, 512, 440, C
+mdlString = 66, 66, 490, 418, C
+clsWord = 0, 0, 353, 352, C
+clsIPage = 44, 44, 430, 396, C
+clsLocation = 176, 176, 617, 528, C
+mdlUnicode = 110, 110, 406, 462, C
+frmWManage = 0, 0, 323, 352, , 176, 176, 562, 528, C
+mdlSystem = 0, 0, 398, 352, C
+clsWordClass = 0, 0, 0, 0, C
+clsWCItem = 110, 110, 348, 462, C

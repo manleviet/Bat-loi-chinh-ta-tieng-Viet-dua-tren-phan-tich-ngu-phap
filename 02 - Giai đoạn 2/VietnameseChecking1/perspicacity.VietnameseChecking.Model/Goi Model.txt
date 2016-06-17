@@ -1,0 +1,44 @@
+﻿				Gói perspicacity.VietnameseChecking.Core
+
+Mục đích: Tổ chức mô hình lưu trữ dữ liệu logic.
+
+Yêu cầu:
++ Tổ chức được ba mô hình lưu trữ cho ba từ điển: WordDictionary, WordClassDictionary,
+RuleDictionary.
++ Tổ chức được hai mô hình lưu trữ cho hai dạng chương trình: chương trình bắt lỗi và
+chương trình tiện ích.
++ Tổ chức phân cấp và tránh dư thừa lớp.
+
+Công việc đã tiến hành:
++ Ngày 24/7/2004:
+	- Xây dựng gói perspicacity.VietnameseChecking.Core.Node.
+	- Xây dựng lớp _base trong gói trên làm cơ sở thừa kế cho các lớp khác trong mô hình.
+	Lớp được xây dựng bao gồm:
+		Hai biến private kiểu string: _content1 và _content2.
+		Hai hàm khởi tạo: public _base() và public _base(string content1, string content2).
+		Hai thuộc tính get/set protected: Content1, Content2.
+		
+	- Xây dựng gói perspicacity.VietnameseChecking.Core.Node.WordDictionary.
+	- Xây dựng lớp _node trong gói trên, biểu diễn một node trong từ điển từ.
+	Lớp này thừa kế từ lớp _base, bao gồm:
+		Hai hàm khởi tạo: public _node() và public _node(string word, string wordclass).
+		Hai thuộc tính get/set public: Word, WordClass.
+		
+	- Xây dựng gói perspicacity.VietnameseChecking.Core.Node.WordClassDictionary.
+	- Xây dựng lớp _node trong gói trên, biểu diễn một node trong từ điển từ loại.
+	Lớp này thừa kế từ lớp _base, bao gồm:
+		Hai hàm khởi tạo: public _node() và public _node(string wordclass, string sense).
+		Hai thuộc tính get/set public: WordClass, Sense.
+		
+	- Xây dựng gói perspicacity.VietnameseChecking.Core.Node.RuleDictionary.
+	- Xây dựng lớp _node trong gói trên, biểu diễn một node trong từ điển luật sinh.
+	Lớp này thừa kế từ lớp _base, bao gồm:
+		Hai hàm khởi tạo: public _node() và public _node(string leftrule, string rightrule).
+		Hai thuộc tính get/set public: LeftRule, RightRule.
+	
+	-> Hoàn thành gói perspicacity.VietnameseChecking.Core.Node.
+
++ Ngày 25/7/2004:
+	- Phát hiện sai trong tên các gói. Tiến hành khắc phục. Khắc phục xong.
+	
++ Ngày 26/7/2004:
